@@ -1,0 +1,10 @@
+form-builder/
+├── app.py
+├── templates/
+│   ├── index.html
+│   ├── create_form.html
+│   ├── view_forms.html
+│   ├── fill_form.html
+│   └── success.html
+├── static/
+└── requirements.txt

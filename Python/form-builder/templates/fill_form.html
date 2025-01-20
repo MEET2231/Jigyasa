@@ -1,0 +1,8 @@
+<h1>Fill the Form</h1>
+<form method="POST">
+    {% for field in fields %}
+        <label>{{ field.field_name }}:</label>
+        <input type="text" name="{{ field.field_name }}" required><br>
+    {% endfor %}
+    <button type="submit">Submit</button>
+</form>

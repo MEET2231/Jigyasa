@@ -1,0 +1,6 @@
+<h1>Available Forms</h1>
+<ul>
+    {% for form in forms %}
+        <li><a href="/fill_form/{{ form.id }}">{{ form.name }}</a></li>
+    {% endfor %}
+</ul>
